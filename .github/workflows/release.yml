@@ -39,4 +39,4 @@ jobs:
       with:
         subdir: 'conda'
         anacondatoken: ${{ secrets.ANACONDA_TOKEN }}
-        platforms: 'linux'  # since we are building noarch package
+        platforms: 'win osx linux'
