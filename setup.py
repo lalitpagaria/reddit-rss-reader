@@ -43,7 +43,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="reddit-rss-reader",
-    version="1.2",
+    version="1.3",
     author="Lalit Pagaria",
     author_email="pagaria.lalit@gmail.com",
     description="A Wrapper around Reddit RSS feed",
