@@ -5,8 +5,14 @@
     <a href="https://pypi.org/project/reddit-rss-reader">
         <img src="https://img.shields.io/pypi/pyversions/reddit-rss-reader" alt="PyPI - Python Version" />
     </a>
+    <a href="https://anaconda.org/lalitpagaria/reddit-rss-reader">
+        <img src="https://anaconda.org/lalitpagaria/reddit-rss-reader/badges/version.svg" alt="Conda" />
+    </a>
+    <a href="https://anaconda.org/lalitpagaria/reddit-rss-reader">
+        <img src="https://anaconda.org/lalitpagaria/reddit-rss-reader/badges/downloads.svg" alt="Downloads" />
+    </a>
     <a href="https://pypi.org/project/reddit-rss-reader/">
-        <img alt="Release" src="https://img.shields.io/pypi/v/app-store-reviews-reader">
+        <img alt="Release" src="https://img.shields.io/pypi/v/reddit-rss-reader">
     </a>
     <a href="https://pepy.tech/project/reddit-rss-reader">
         <img src="https://pepy.tech/badge/reddit-rss-reader/month" alt="Downloads" />
