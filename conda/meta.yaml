@@ -33,7 +33,8 @@ test:
 about:
   home: { { data[ 'url' ] } }
   license: { { data[ 'license' ] } }
-  summary: { { data[ 'description' ] } }
+
+summary: { { data[ 'description' ] } }
 
 extra:
   recipe-maintainers:
