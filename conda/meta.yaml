@@ -1,0 +1,40 @@
+{% set name = "reddit-rss-reader" %}
+{% set data = load_setup_py_data() %}
+
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ data['version'] }}"
+
+source:
+  path: ..
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+  noarch: python
+
+requirements:
+  build:
+    - python
+    - feedparser
+    - beautifulsoup4
+    - requests
+  run:
+    - python
+    - feedparser
+    - beautifulsoup4
+    - requests
+
+test:
+  requires:
+    - pytest
+
+about:
+  home: { { data[ 'url' ] } }
+  license: { { data[ 'license' ] } }
+  summary: { { data[ 'description' ] } }
+
+extra:
+  recipe-maintainers:
+    - lalitpagaria
